@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import classes from "./App.module.css"
+import Billing from "./components/Billing";
+import Navigation from "./components/Navigation/Navigation";
+import {Route} from "react-router-dom";
+import Orders from "./components/Orders/Orders";
+function App(){
+  return(
+    <div>
+      <Navigation className={classes.Navigation}/>
+      <Route path="/Billing" component={Billing}/>
+      <Route path="/Orders" component={Orders}/>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
-  );
+  )
 }
 
 export default App;

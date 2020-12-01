@@ -1,0 +1,24 @@
+.Navigation{
+    background-color: brown;
+    padding: 20px;
+}
+.Logo{
+    display: inline;
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+.item{
+    display: flex;
+    float: right;
+}
+
+
+
+@media(max-width:500px){
+    .Logo{
+        display: none;
+    }
+}

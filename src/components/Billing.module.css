@@ -1,0 +1,38 @@
+form{
+  border: 1px solid;
+  width:500px;
+  text-align: center;
+}
+h3{
+  margin: 0px;
+}
+p{
+  margin: 0px;
+}
+
+.stylingItem div{
+  display: inline-block;
+  margin: 10px;
+}
+
+hr{
+  width: 100%;
+}
+
+.left{
+  display: inline;
+  float: left;
+  margin-left: 10px;
+}
+
+.right{
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+
+.Total{
+  display: inline;
+  float: right;
+  margin-right: 20%;
+}
